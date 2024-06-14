@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero"
 import personOne from "../assets/images/HeroPerson_One.png"
+import Performances from "@/components/Performances"
 
 const HomePage = () => {
   return (
@@ -9,6 +10,7 @@ const HomePage = () => {
         LightSketch API. Our headshot optimizer goes beyond traditional dreambooth so that
         you can get the best quality possible.
       </Hero>
+      <Performances isHomePage={true} />
     </>
   )
 }
