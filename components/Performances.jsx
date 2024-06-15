@@ -7,7 +7,7 @@ const Performances = ({ isHomePage = false }) => {
   return (
     <>
       {isHomePage ? (
-        <section className="flex flex-col container mx-auto mt-44 lg:mt-32 lg:flex-row lg:space-y-0 lg:justify-between gap-10">
+        <section className="flex flex-col container mx-auto px-4 mt-44 lg:mt-32 lg:flex-row lg:space-y-0 lg:justify-between gap-10">
           <Performance
             logo={logoOne}
             title={"Specialised headshot models"}
@@ -31,7 +31,7 @@ const Performances = ({ isHomePage = false }) => {
           />
         </section>
       ) : (
-        <section className="flex flex-col container mx-auto mt-44 lg:mt-32 lg:flex-row lg:space-y-0 lg:justify-between gap-10">
+        <section className="flex flex-col container mx-auto px-4 mt-44 lg:mt-32 lg:flex-row lg:space-y-0 lg:justify-between gap-10">
           <Performance
             logo={logoOne}
             title={"Use any model"}
