@@ -6,7 +6,7 @@ const AIFeatures = () => {
   return (
     <>
       <div className="border border-slate-900 mt-10" />
-      <article className="container mx-auto px-4 flex flex-col justify-between items-center mt-12 lg:flex-row">
+      <article className="container mx-auto flex flex-col justify-around items-center mt-12 lg:flex-row">
         <div className="space-y-5">
           <h3 className="text-2xl max-w-sm lg:max-w-md -mb-2">
             Access a suit of powerful AI features{" "}

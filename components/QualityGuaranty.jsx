@@ -7,7 +7,7 @@ const QualityGuaranty = () => {
   return (
     <>
       <div className="border border-slate-900 mt-24" />
-      <section className="container mx-auto my-16 px-4 flex flex-col justify-center items-center lg:flex-row lg:justify-between relative pb-8">
+      <section className="container mx-auto my-16 flex flex-col justify-center items-center lg:flex-row md:justify-center lg:justify-between relative pb-8 lg:px-20 xl:px-40 ">
         <div className="flex flex-col justify-center items-center space-y-3">
           <h3 className="text-2xl self-start font-semibold">Quality guaranty</h3>
           <p className="max-w-md text-gray-300">
@@ -52,7 +52,7 @@ const QualityGuaranty = () => {
             width={0}
             priority
             src={featuresFemaleImg}
-            className="z-10 absolute mt-48 right-32 top-96 md:mt-36 md:top-96 md:right-48 lg:right-3 lg:top-32 lg:mt-0"
+            className="z-10 absolute mt-48 right-32 top-96 md:mt-36 md:top-96 md:right-48 lg:right-[6.5rem] lg:top-32 lg:mt-0 xl:right-[11.5rem]"
           />
         </div>
       </section>
