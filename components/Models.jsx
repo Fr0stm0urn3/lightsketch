@@ -7,13 +7,15 @@ const Models = () => {
   return (
     <>
       <article className="container mx-auto flex flex-col space-y-5 justify-center items-center text-center mt-10">
-        <h3 className="font-semibold text-2xl">Go beyond professional headshots</h3>
-        <p className="text-gray-300 max-w-md">
+        <h3 className="font-bold text-2xl max-w-[334px] lg:max-w-md">
+          Go beyond professional headshots
+        </h3>
+        <p className="text-gray-300 max-w-[334px]  lg:max-w-md">
           Let you imagination run wild, the dreambooth API can be used for more than just
           creating professional headshots. Chose from a range of base model specialising
           at different style and edit the prompt to make avatars in any style.
         </p>
-        <div className="flex gap-6 lg:gap-14">
+        <div className="flex gap-6 lg:gap-14 w-full justify-center px-10 md:px-0">
           <Image
             alt="Person Viking"
             sizes="100vw"
