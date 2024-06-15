@@ -1,7 +1,12 @@
+"use client"
+
 import { FaAngleRight } from "react-icons/fa"
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 
 const PremiumService = () => {
+  const pathname = usePathname()
+
   return (
     <div className="bg-slate-900  mt-24 py-8">
       <div className="flex justify-between items-center container mx-auto  ">
@@ -9,7 +14,7 @@ const PremiumService = () => {
           <h3 className="text-gray-100 text-xl mb-4">
             The most powerful AI APIs at your fingertips
           </h3>
-          <Link href={"/"} className="text-blue-500">
+          <Link href={pathname === "/" ? "blog" : "/"} className="text-blue-500">
             Get started for free now
           </Link>
         </div>

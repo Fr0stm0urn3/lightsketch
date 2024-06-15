@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero"
 import personOne from "../assets/images/HeroPerson_One.png"
 import Performances from "@/components/Performances"
+import QualityGuaranty from "@/components/QualityGuaranty"
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
         you can get the best quality possible.
       </Hero>
       <Performances isHomePage={true} />
+      <QualityGuaranty />
     </>
   )
 }

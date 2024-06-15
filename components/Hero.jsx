@@ -9,8 +9,8 @@ const Hero = ({ title, children, personImg }) => {
         <p className="text-gray-300 text-center max-w-lg lg:max-w-sm mx-auto text-lg lg:text-base">
           {children}
         </p>
-        <div className="flex justify-center gap-10 items-center lg:ml-6 mt-4">
-          <button className="bg-blue-600 rounded-3xl py-3 px-8 text-white">
+        <div className="flex justify-center gap-8 items-center lg:ml-3 mt-4">
+          <button className="bg-blue-600 rounded-3xl py-3 px-12 text-white">
             Try for free
           </button>
           <button className="bg-blue-600 rounded-3xl py-3 px-8 text-white">
