@@ -2,6 +2,7 @@ import Hero from "@/components/Hero"
 import personTwo from "@/assets/images/HeroPerson_Two.png"
 import Performances from "@/components/Performances"
 import AIFeatures from "@/components/AIFeatures"
+import GenerationModel from "@/components/GenerationModel"
 
 const BlogPage = () => {
   return (
@@ -13,6 +14,7 @@ const BlogPage = () => {
       </Hero>
       <Performances />
       <AIFeatures />
+      <GenerationModel />
     </>
   )
 }

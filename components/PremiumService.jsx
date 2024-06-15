@@ -8,7 +8,7 @@ const PremiumService = () => {
   const pathname = usePathname()
 
   return (
-    <div className="bg-slate-900  mt-24 py-8">
+    <div className="bg-slate-900  mt-10 py-8">
       <div className="px-4 flex flex-col justify-center lg:flex-row lg:justify-between items-center container mx-auto  ">
         <div>
           <h3 className="text-gray-100 text-2xl lg:text-xl lg:mb-4 max-w-64">

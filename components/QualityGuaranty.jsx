@@ -6,8 +6,8 @@ import { FaUser, FaCog } from "react-icons/fa"
 const QualityGuaranty = () => {
   return (
     <>
-      <div className="border border-slate-800 mt-24" />
-      <section className="container mx-auto my-16 px-4 flex flex-col justify-center items-center lg:flex-row lg:justify-between relative">
+      <div className="border border-slate-900 mt-24" />
+      <section className="container mx-auto my-16 px-4 flex flex-col justify-center items-center lg:flex-row lg:justify-between relative pb-8">
         <div className="flex flex-col justify-center items-center space-y-3">
           <h3 className="text-2xl self-start font-semibold">Quality guaranty</h3>
           <p className="max-w-md text-gray-300">
@@ -56,7 +56,7 @@ const QualityGuaranty = () => {
           />
         </div>
       </section>
-      <div className="border border-slate-800 mt-[29rem] lg:mt-0" />
+      <div className="border border-slate-900 mt-[29rem] lg:mt-0" />
     </>
   )
 }

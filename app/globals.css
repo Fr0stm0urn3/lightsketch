@@ -18,11 +18,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb)))
     rgb(var(--background-start-rgb));
 }
 
@@ -30,4 +26,15 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+body::-webkit-scrollbar {
+  width: 0.65rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(110, 53, 63);
+}
+body::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(125, 48, 67);
 }
