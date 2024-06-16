@@ -1,7 +1,12 @@
 import Image from "next/image"
-import bunnyAI from "@/assets/images/BunnyAI.png"
+import bunnyAI from "../assets/images/BunnyAI.png"
 
-const data = [
+type Data = {
+  id: number
+  text: string
+}
+
+const data: Data[] = [
   {
     id: 1,
     text: "Text to Image",

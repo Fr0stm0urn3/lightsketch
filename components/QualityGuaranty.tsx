@@ -1,6 +1,6 @@
 import Image from "next/image"
-import featuresMaleImg from "@/assets/images/Warm White.png"
-import featuresFemaleImg from "@/assets/images/Modern Interior.png"
+import featuresMaleImg from "../assets/images/Warm White.png"
+import featuresFemaleImg from "../assets/images/Modern Interior.png"
 
 const QualityGuaranty = () => {
   return (

@@ -1,8 +1,8 @@
-import Hero from "@/components/Hero"
+import Hero from "../components/Hero"
 import personOne from "../assets/images/HeroPerson_One.png"
-import Performances from "@/components/Performances"
-import QualityGuaranty from "@/components/QualityGuaranty"
-import Models from "@/components/Models"
+import Performances from "../components/Performances"
+import QualityGuaranty from "../components/QualityGuaranty"
+import Models from "../components/Models"
 
 const HomePage = () => {
   return (

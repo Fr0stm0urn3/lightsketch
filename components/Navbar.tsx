@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation"
 import { FaBars, FaAngleDown } from "react-icons/fa"
 
 const Navbar = () => {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false)
   const pathname = usePathname()
 
   useEffect(() => {

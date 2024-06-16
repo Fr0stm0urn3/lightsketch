@@ -3,7 +3,7 @@ const GenerationModel = () => {
     <>
       <div className="border border-t-0 border-slate-900 mt-4" />
       <section className="container mx-auto text-center space-y-6 mt-6 px-4">
-        <h3 className="text-3xl max-w-md mx-auto lg:max-w-lg text-2xl">
+        <h3 className="max-w-md mx-auto lg:max-w-lg text-2xl">
           Access all the best image generation models
         </h3>
         <p className="max-w-md text-gray-300 mx-auto text-xl lg:text-base">

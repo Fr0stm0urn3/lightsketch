@@ -1,4 +1,12 @@
-const Performance = ({ logo, title, subtitle }) => {
+import React from "react"
+
+type PerformanceProps = {
+  logo: React.ReactNode
+  title: string
+  subtitle: string
+}
+
+const Performance: React.FC<PerformanceProps> = ({ logo, title, subtitle }) => {
   return (
     <div className="flex flex-col text-center space-y-2">
       {/* <Image

@@ -1,6 +1,21 @@
+import React from "react"
 import Performance from "./Performance"
 
-const dataHome = [
+type DataHome = {
+  id?: number
+  logo: React.ReactNode
+  title: string
+  subtitle: string
+}
+
+type DataBlog = {
+  id?: number
+  logo: React.ReactNode
+  title: string
+  subtitle: string
+}
+
+const dataHome: DataHome[] = [
   {
     id: 1,
     logo: (
@@ -101,7 +116,7 @@ const dataHome = [
   },
 ]
 
-const dataBlog = [
+const dataBlog: DataBlog[] = [
   {
     id: 1,
     logo: (
@@ -229,7 +244,7 @@ const Performances = ({ isHomePage = false }) => {
               "Access a suit of optimisations specially designed to give you the best results."
             }
           /> */}
-          {dataHome.map((item) => (
+          {dataHome.map((item: DataHome) => (
             <Performance {...item} key={item.id} />
           ))}
         </section>
@@ -256,7 +271,7 @@ const Performances = ({ isHomePage = false }) => {
               "Because your users shouldn't have to wait for their results to come through"
             }
           /> */}
-          {dataBlog.map((item) => (
+          {dataBlog.map((item: DataBlog) => (
             <Performance {...item} key={item.id} />
           ))}
         </section>

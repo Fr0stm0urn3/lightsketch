@@ -1,8 +1,8 @@
-import Hero from "@/components/Hero"
-import personTwo from "@/assets/images/HeroPerson_Two.png"
-import Performances from "@/components/Performances"
-import AIFeatures from "@/components/AIFeatures"
-import GenerationModel from "@/components/GenerationModel"
+import personTwo from "../../assets/images/HeroPerson_Two.png"
+import Hero from "../../components/Hero"
+import Performances from "../../components/Performances"
+import AIFeatures from "../../components/AIFeatures"
+import GenerationModel from "../../components/GenerationModel"
 
 const BlogPage = () => {
   return (
