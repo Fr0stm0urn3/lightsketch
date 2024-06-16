@@ -1,21 +1,14 @@
 import React from "react"
 import Performance from "./Performance"
 
-type DataHome = {
-  id?: number
+type Data = {
+  id: number
   logo: React.ReactNode
   title: string
   subtitle: string
 }
 
-type DataBlog = {
-  id?: number
-  logo: React.ReactNode
-  title: string
-  subtitle: string
-}
-
-const dataHome: DataHome[] = [
+const dataHome: Data[] = [
   {
     id: 1,
     logo: (
@@ -116,7 +109,7 @@ const dataHome: DataHome[] = [
   },
 ]
 
-const dataBlog: DataBlog[] = [
+const dataBlog: Data[] = [
   {
     id: 1,
     logo: (
