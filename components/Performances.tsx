@@ -237,7 +237,7 @@ const Performances = ({ isHomePage = false }) => {
               "Access a suit of optimisations specially designed to give you the best results."
             }
           /> */}
-          {dataHome.map((item: DataHome) => (
+          {dataHome.map((item: Data) => (
             <Performance {...item} key={item.id} />
           ))}
         </section>
@@ -264,7 +264,7 @@ const Performances = ({ isHomePage = false }) => {
               "Because your users shouldn't have to wait for their results to come through"
             }
           /> */}
-          {dataBlog.map((item: DataBlog) => (
+          {dataBlog.map((item: Data) => (
             <Performance {...item} key={item.id} />
           ))}
         </section>
