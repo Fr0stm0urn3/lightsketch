@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from "next/image"
-import codeImg from "../assets/images/CodeImg.png"
+import codeImg from "../public/assets/images/CodeImg.png"
 
 type HeroProps = {
   title: string

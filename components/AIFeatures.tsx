@@ -1,5 +1,5 @@
 import Image from "next/image"
-import bunnyAI from "../assets/images/BunnyAI.png"
+import bunnyAI from "../public/assets/images/BunnyAI.png"
 
 type Data = {
   id: number

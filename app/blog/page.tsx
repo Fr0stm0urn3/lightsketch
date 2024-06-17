@@ -1,4 +1,4 @@
-import personTwo from "../../assets/images/HeroPerson_Two.png"
+import personTwo from "../../public/assets/images/HeroPerson_Two.png"
 import Hero from "../../components/Hero"
 import Performances from "../../components/Performances"
 import AIFeatures from "../../components/AIFeatures"

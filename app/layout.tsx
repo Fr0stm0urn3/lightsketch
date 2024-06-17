@@ -4,7 +4,6 @@ import Navbar from "../components/Navbar"
 import PremiumService from "../components/PremiumService"
 import { Metadata } from "next"
 import Head from "next/head"
-import LightSketchImg from "../assets/images/LightSketch.png"
 
 const url = "https://lightsketch.vercel.app/"
 
@@ -49,12 +48,12 @@ function HeadMeta() {
     <Head>
       <meta
         property="og:image"
-        content={`https://lightsketch.vercel.app/../assets/images/LightSketch.png`}
+        content={`https://lightsketch.vercel.app/public/assets/images/LightSketch.png`}
       />
       <meta name="twitter:card" content="summary_large_image" />
       <meta
         name="twitter:image"
-        content={"https://lightsketch.vercel.app/../assets/images/LightSketch.png"}
+        content={"https://lightsketch.vercel.app/public/assets/images/LightSketch.png"}
       />
     </Head>
   )

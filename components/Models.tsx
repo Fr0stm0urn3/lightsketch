@@ -1,7 +1,7 @@
 import Image from "next/image"
-import personImg_one from "../assets/images/personImg1.png"
-import personImg_two from "../assets/images/personImg2.png"
-import personImg_three from "../assets/images/personImg3.png"
+import personImg_one from "../public/assets/images/personImg1.png"
+import personImg_two from "../public/assets/images/personImg2.png"
+import personImg_three from "../public/assets/images/personImg3.png"
 
 const Models = () => {
   return (
