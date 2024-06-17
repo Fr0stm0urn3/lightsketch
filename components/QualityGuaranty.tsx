@@ -5,17 +5,17 @@ import featuresFemaleImg from "../assets/images/Modern Interior.png"
 const QualityGuaranty = () => {
   return (
     <>
-      <div className="border border-slate-900 mt-24" />
+      <div className="border border-slate-800 mt-24 container mx-auto" />
       <section className="container mx-auto my-16 flex flex-col justify-center items-center lg:flex-row md:justify-center lg:justify-between relative pb-8 lg:px-20 xl:px-28 ">
-        <div className="flex flex-col justify-center items-center space-y-3">
-          <h3 className="text-2xl self-start font-semibold">Quality guaranty</h3>
-          <p className="max-w-md text-gray-300">
+        <div className="flex flex-col justify-center space-y-4">
+          <h3 className="text-2xl self-start font-[700]">Quality guaranty</h3>
+          <p className=" text-gray-300 w-[334px] lg:w-[412px] leading-[19.36px]">
             Thanks to two of our in-hose improvements to the training process, we can
             guaranty the best quality when it comes to AI generated headshots.
           </p>
-          <div className="space-y-4 max-w-sm">
-            <div className="bg-[#151C31] px-4 py-2 rounded-md">
-              <h5 className="flex items-center gap-2">
+          <div className="space-y-5">
+            <div className="bg-[#151C31] pl-5 py-2  rounded-md">
+              <h5 className="flex items-center gap-2 font-[700] mb-1.5">
                 <span>
                   <svg
                     width="15"
@@ -33,13 +33,13 @@ const QualityGuaranty = () => {
                 </span>{" "}
                 LS-Headshots
               </h5>
-              <p className="max-w-md text-gray-300">
+              <p className="lg:w-[352px] text-gray-300 w-[307.77px] leading-[19.36px]">
                 Our in-house model has been specially trained on a large dataset to make
                 high quality photorealistic profile pictures.
               </p>
             </div>
-            <div className="bg-[#151C31] px-4 py-2 rounded-md">
-              <h5 className="flex items-center gap-2">
+            <div className="bg-[#151C31] pl-5 py-2 rounded-md">
+              <h5 className="flex items-center gap-2 font-[700] mb-1.5">
                 <span>
                   <svg
                     width="15"
@@ -58,7 +58,7 @@ const QualityGuaranty = () => {
                 </span>{" "}
                 Headshot Optimizer
               </h5>
-              <p className="max-w-md text-gray-300">
+              <p className="lg:w-[352px] text-gray-300 w-[311.27px] leading-[19.36px]">
                 Our enhanced training method incorporates a suit of optimisation and will
                 ensure that you always get the best results possible.
               </p>
@@ -73,7 +73,7 @@ const QualityGuaranty = () => {
             width={0}
             priority
             src={featuresMaleImg}
-            className="z-0 absolute mt-10 top-96 left-20 lg:relative md:mt-[7.65rem] md:top-64 md:left-44 lg:mt-0 lg:-left-44 lg:-top-20 mx-auto"
+            className="z-0 absolute mt-10 top-[25.5rem] left-32 lg:relative md:mt-[11.65rem] md:top-64 md:left-48 lg:mt-0 lg:-left-44 lg:-top-20 mx-auto"
           />
           <Image
             alt="Person-female"
@@ -82,11 +82,11 @@ const QualityGuaranty = () => {
             width={0}
             priority
             src={featuresFemaleImg}
-            className="z-10 absolute mt-48 right-32 top-96 md:mt-36 md:top-96 md:right-48  lg:top-36 lg:mt-0 lg:right-[5.5rem] xl:right-[8.7rem]"
+            className="z-10 absolute mt-48 right-32 top-[25.25rem] md:mt-36 md:top-[27.8rem] md:right-44  lg:top-36 lg:mt-0 lg:right-[5.5rem] xl:right-[8.7rem]"
           />
         </div>
       </section>
-      <div className="border border-slate-900 mt-[29rem] lg:mt-0" />
+      <div className="border border-slate-800 mt-[29rem] lg:mt-0 container mx-auto" />
     </>
   )
 }

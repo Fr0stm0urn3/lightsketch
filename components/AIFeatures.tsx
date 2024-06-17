@@ -40,13 +40,14 @@ const data: Data[] = [
 const AIFeatures = () => {
   return (
     <>
-      <div className="border border-slate-900 mt-10" />
+      <div className="border border-slate-800 container mx-auto mt-10" />
+      <div className="border border-slate-800 container mx-auto mt-[0.32px]" />
       <article className="container mx-auto flex flex-col justify-around items-center mt-12 lg:gap-56 lg:flex-row">
         <div className="space-y-5">
-          <h3 className="text-2xl max-w-sm lg:max-w-md -mb-2">
+          <h3 className="text-2xl max-w-sm lg:max-w-md -mb-2 font-bold leading-[29.05px]">
             Access a suit of powerful AI features{" "}
           </h3>
-          <p className="max-w-[330px] lg:max-w-[400px] text-gray-300">
+          <p className="max-w-[330px] lg:max-w-[400px] text-gray-300 text-base leading-[19.36px]">
             Our image generation API is composed of a suit of endpoints with powerful AI
             features. This gives you the flexibility to build you own image generation
             pipeline with the most up to date technology.{" "}
@@ -108,7 +109,8 @@ const AIFeatures = () => {
           priority
         />
       </article>
-      <div className="border border-slate-900 mt-20" />
+      <div className="border border-slate-800 container mx-auto mt-20" />
+      <div className="border border-slate-800 container mx-auto mt-[0.32px]" />
     </>
   )
 }

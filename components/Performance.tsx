@@ -8,7 +8,7 @@ type PerformanceProps = {
 
 const Performance: React.FC<PerformanceProps> = ({ logo, title, subtitle }) => {
   return (
-    <div className="flex flex-col text-center space-y-2">
+    <div className="flex flex-col text-center space-y-1">
       {/* <Image
         sizes="100vw"
         height={0}
@@ -18,8 +18,10 @@ const Performance: React.FC<PerformanceProps> = ({ logo, title, subtitle }) => {
         className="mb-2 mx-auto"
       /> */}
       <span className="mx-auto bg-[#151C31] p-2 rounded-xl">{logo}</span>
-      <h4 className="text-[1.35rem] text-gray-100">{title}</h4>
-      <p className="text-gray-300 max-w-[18.5rem] mx-auto">{subtitle}</p>
+      <h4 className="text-2xl text-gray-100">{title}</h4>
+      <p className="text-gray-300 max-w-[18.5rem] mx-auto leading-[19.36px]">
+        {subtitle}
+      </p>
     </div>
   )
 }

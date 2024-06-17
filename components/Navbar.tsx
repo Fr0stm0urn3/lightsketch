@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav className="relative flex justify-between items-center pt-8 px-6">
       <Link
         href={"/"}
-        className="text-gray-100 text-2xl cursor-pointer"
+        className="text-gray-100 text-2xl cursor-pointer pl-2"
         onClick={() => setIsMobileMenuOpen(false)}
       >
         LightSketch

@@ -7,17 +7,17 @@ const PremiumService = () => {
   const pathname = usePathname()
 
   return (
-    <div className="bg-[#151C31] px-10 container mx-auto mt-10">
-      <div className="flex flex-col justify-center lg:flex-row lg:justify-between  items-center py-8 lg:space-x-80 rounded-md">
+    <div className="bg-[#151C31] px-10 container mx-auto mt-10 mb-10">
+      <div className="flex flex-col justify-center lg:flex-row lg:justify-between  items-center py-8 lg:space-x-80 rounded-md ">
         <div>
-          <h3 className="text-gray-100 text-2xl lg:mb-6 max-w-64  lg:max-w-full">
+          <h3 className="text-gray-100 text-2xl lg:mb-6 max-w-64  lg:max-w-full  leading-[29.05px]">
             The most powerful AI APIs at your fingertips
           </h3>
           <Link href={pathname === "/" ? "blog" : "/"} className="text-[#6366F1]">
             Get started for free now
           </Link>
         </div>
-        <button className="flex items-center gap-2 bg-[#6366F1] py-3 px-4 lg:px-9 rounded-3xl  mt-4 lg:mt-0">
+        <button className="flex items-center gap-2 bg-[#6366F1] py-3 px-4 lg:px-9 rounded-3xl  mt-4 lg:mt-0 lg:w-[200px] xl:w-auto">
           Get Started{" "}
           <span>
             <svg

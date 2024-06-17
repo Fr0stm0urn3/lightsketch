@@ -3,10 +3,10 @@ const GenerationModel = () => {
     <>
       <div className="border border-t-0 border-slate-900 mt-4" />
       <section className="container mx-auto text-center space-y-6 mt-6 px-4">
-        <h3 className="max-w-md mx-auto lg:max-w-lg text-2xl">
+        <h3 className="w-[334px] mx-auto lg:max-w-lg text-2xl leading-[29.05px]">
           Access all the best image generation models
         </h3>
-        <p className="max-w-md text-gray-300 mx-auto text-xl lg:text-base">
+        <p className="text-gray-300 mx-auto w-[334px] lg:text-base leading-[19.36px]">
           We are constantly adding new models to the API for public access. You can also
           add your own model and keep them private.{" "}
         </p>
