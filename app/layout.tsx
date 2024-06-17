@@ -3,6 +3,8 @@ import "./globals.css"
 import Navbar from "../components/Navbar"
 import PremiumService from "../components/PremiumService"
 import { Metadata } from "next"
+import Head from "next/head"
+import LightSketchImg from "../assets/images/LightSketch.png"
 
 const url = "https://lightsketch.vercel.app/"
 
@@ -29,9 +31,19 @@ export const metadata: Metadata = {
   },
 }
 
+function HeadMeta() {
+  return (
+    <Head>
+      <title>LightSketch</title>
+      <meta property="og:image" content={LightSketchImg.src} />
+    </Head>
+  )
+}
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <HeadMeta />
       <body className={inter.className}>
         <>
           <Navbar />
