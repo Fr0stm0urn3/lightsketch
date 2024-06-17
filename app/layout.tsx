@@ -48,12 +48,12 @@ function HeadMeta() {
     <Head>
       <meta
         property="og:image"
-        content={`https://lightsketch.vercel.app/public/assets/images/LightSketch.png`}
+        content={`https://lightsketch.vercel.app/assets/images/LightSketch.png`}
       />
       <meta name="twitter:card" content="summary_large_image" />
       <meta
         name="twitter:image"
-        content={"https://lightsketch.vercel.app/public/assets/images/LightSketch.png"}
+        content={"https://lightsketch.vercel.app/assets/images/LightSketch.png"}
       />
     </Head>
   )
